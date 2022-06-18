@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('image/bg-intro-desktop.png');
+    width: 1440px;
+    font-size: 16px;
+    font-Family: poppins;
+    font-Weight: 400, 500, 600, 700;
+    background-color: orangered;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 1440px;
+}
+
+.col1 {
+    width: 50%;
+    color: white;
+    padding: 60px;
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.col2 {
+    width: 50%;
+    align-items: center;
+    padding: 0px;
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.head1 {
+    padding: 15px;
+    color: white;
+    background-color: purple;
+    border-radius: 5px;
+    width: 550px;
+    text-align-last: center;
+}
+
+input {
+    width: 450px;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid rgb(209, 185, 185);
+    font-weight: bold;
+}
+
+button {
+    width: 450px;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: limegreen;
+    color: white;
+    border: 0px;
+}
+
+button :hover {
+    cursor: pointer;
+}
+
+.box {
+    background-color: white;
+    border: 1px solid rgb(223, 214, 214);
+    border-radius: 5px;
+    width: 550px;
+    text-align: center;
+}
+
+span {
+    color: red;
+    font-weight: bold;
+}
